@@ -85,6 +85,10 @@
 		<default>1</default>
 	</attribute>
 	<attribute>
+		<id>DPLL_VDM_RESPONSE</id>
+		<default>0x00</default>
+	</attribute>
+	<attribute>
 		<id>DPO_MIN_FREQ_PERCENT</id>
 	</attribute>
 	<attribute>
@@ -275,7 +279,7 @@
 	
 	<attribute>
 		<id>MAX_ALLOWED_DIMM_FREQ</id>
-		<default>2400,2400,2400,2400,2400</default>
+		<default>2666,2666,2666,2666,2666</default>
 	</attribute>
 	<attribute>
 		<id>MAX_CHIPLETS_PER_PROC</id>
@@ -553,7 +557,7 @@
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_SUPPORTED_FREQ</id>
-		<default>1866,2133,2400,0</default>
+		<default>1866,2133,2400,2666</default>
 	</attribute>
 	<attribute>
 		<id>MSS_MRW_TEMP_REFRESH_MODE</id>
@@ -10178,10 +10182,6 @@
 		<default>0</default>
 	</attribute>
 	<attribute>
-		<id>PARENT_PERVASIVE</id>
-		<default>physical:sys-0/node-0/proc-0/perv-5</default>
-	</attribute>
-	<attribute>
 		<id>PHYS_PATH</id>
 		<default>physical:sys-0/node-0/proc-0/nv-0</default>
 	</attribute>
@@ -10290,10 +10290,6 @@
 		<default>1</default>
 	</attribute>
 	<attribute>
-		<id>PARENT_PERVASIVE</id>
-		<default>physical:sys-0/node-0/proc-0/perv-5</default>
-	</attribute>
-	<attribute>
 		<id>PHYS_PATH</id>
 		<default>physical:sys-0/node-0/proc-0/nv-1</default>
 	</attribute>
@@ -10400,10 +10396,6 @@
 	<attribute>
 		<id>ORDINAL_ID</id>
 		<default>2</default>
-	</attribute>
-	<attribute>
-		<id>PARENT_PERVASIVE</id>
-		<default>physical:sys-0/node-0/proc-0/perv-5</default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -28855,7 +28847,7 @@
 	</attribute>
 	<attribute>
 		<id>FAPI_POS</id>
-		<default>6</default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>HDAT_I2C_ADDR</id>
@@ -28883,7 +28875,7 @@
 	</attribute>
 	<attribute>
 		<id>HUID</id>
-		<default>0x00290006</default>
+		<default>0x00290000</default>
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
@@ -28906,10 +28898,6 @@
 	<attribute>
 		<id>ORDINAL_ID</id>
 		<default>0</default>
-	</attribute>
-	<attribute>
-		<id>PARENT_PERVASIVE</id>
-		<default>physical:sys-0/node-0/proc-1/perv-5</default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -28967,7 +28955,7 @@
 	</attribute>
 	<attribute>
 		<id>FAPI_POS</id>
-		<default>7</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>HDAT_I2C_ADDR</id>
@@ -28995,7 +28983,7 @@
 	</attribute>
 	<attribute>
 		<id>HUID</id>
-		<default>0x00290007</default>
+		<default>0x00290001</default>
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
@@ -29018,10 +29006,6 @@
 	<attribute>
 		<id>ORDINAL_ID</id>
 		<default>1</default>
-	</attribute>
-	<attribute>
-		<id>PARENT_PERVASIVE</id>
-		<default>physical:sys-0/node-0/proc-1/perv-5</default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -29079,7 +29063,7 @@
 	</attribute>
 	<attribute>
 		<id>FAPI_POS</id>
-		<default>8</default>
+		<default>2</default>
 	</attribute>
 	<attribute>
 		<id>HDAT_I2C_ADDR</id>
@@ -29107,7 +29091,7 @@
 	</attribute>
 	<attribute>
 		<id>HUID</id>
-		<default>0x00290008</default>
+		<default>0x00290002</default>
 	</attribute>
 	<attribute>
 		<id>HWAS_STATE_CHANGED_FLAG</id>
@@ -29130,10 +29114,6 @@
 	<attribute>
 		<id>ORDINAL_ID</id>
 		<default>2</default>
-	</attribute>
-	<attribute>
-		<id>PARENT_PERVASIVE</id>
-		<default>physical:sys-0/node-0/proc-1/perv-5</default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
