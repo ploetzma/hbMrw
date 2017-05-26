@@ -16177,6 +16177,7 @@
 		<id>DECONFIG_GARDABLE</id>
 		<default>1</default>
 	</attribute>
+	
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>pu.phb:k0:n0:s0:p00:c0</default>
@@ -16210,6 +16211,9 @@
 		<id>HDAT_I2C_SLAVE_PORT</id>
 	</attribute>
 	<attribute>
+		<id>HDDW_ORDER</id>
+	</attribute>
+	<attribute>
 		<id>HUID</id>
 		<default>0x002E0000</default>
 	</attribute>
@@ -16228,6 +16232,9 @@
 	</attribute>
 	
 	<attribute>
+		<id>MGC_LOAD_SOURCE</id>
+	</attribute>
+	<attribute>
 		<id>MRU_ID</id>
 		<default>0x00</default>
 	</attribute>
@@ -16239,6 +16246,22 @@
 	<attribute>
 		<id>PARENT_PERVASIVE</id>
 		<default>physical:sys-0/node-0/proc-0/perv-13</default>
+	</attribute>
+	<attribute>
+		<id>PCIE_32BIT_DMA_SIZE</id>
+	</attribute>
+	<attribute>
+		<id>PCIE_32BIT_MMIO_SIZE</id>
+	</attribute>
+	<attribute>
+		<id>PCIE_64BIT_DMA_SIZE</id>
+	</attribute>
+	<attribute>
+		<id>PCIE_64BIT_MMIO_SIZE</id>
+	</attribute>
+	<attribute>
+		<id>PCIE_CAPABILITES</id>
+		<default>0x2</default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -16293,6 +16316,12 @@
 		<default>0</default>
 	</attribute>
 	<attribute>
+		<id>SLOT_INDEX</id>
+	</attribute>
+	<attribute>
+		<id>SLOT_NAME</id>
+	</attribute>
+	<attribute>
 		<id>TYPE</id>
 		<default>PHB</default>
 	</attribute>
@@ -16325,6 +16354,7 @@
 		<id>DECONFIG_GARDABLE</id>
 		<default>1</default>
 	</attribute>
+	
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>pu.phb:k0:n0:s0:p00:c1</default>
@@ -16376,6 +16406,9 @@
 	</attribute>
 	
 	<attribute>
+		<id>MGC_LOAD_SOURCE</id>
+	</attribute>
+	<attribute>
 		<id>MRU_ID</id>
 		<default>0x00</default>
 	</attribute>
@@ -16387,6 +16420,10 @@
 	<attribute>
 		<id>PARENT_PERVASIVE</id>
 		<default>physical:sys-0/node-0/proc-0/perv-14</default>
+	</attribute>
+	<attribute>
+		<id>PCIE_CAPABILITES</id>
+		<default>0x2</default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -16473,6 +16510,7 @@
 		<id>DECONFIG_GARDABLE</id>
 		<default>1</default>
 	</attribute>
+	
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>pu.phb:k0:n0:s0:p00:c2</default>
@@ -16523,6 +16561,9 @@
 	</attribute>
 	
 	<attribute>
+		<id>MGC_LOAD_SOURCE</id>
+	</attribute>
+	<attribute>
 		<id>MRU_ID</id>
 		<default>0x00</default>
 	</attribute>
@@ -16534,6 +16575,10 @@
 	<attribute>
 		<id>PARENT_PERVASIVE</id>
 		<default>physical:sys-0/node-0/proc-0/perv-14</default>
+	</attribute>
+	<attribute>
+		<id>PCIE_CAPABILITES</id>
+		<default>0x2</default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -16620,6 +16665,7 @@
 		<id>DECONFIG_GARDABLE</id>
 		<default>1</default>
 	</attribute>
+	
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>pu.phb:k0:n0:s0:p00:c3</default>
@@ -16653,6 +16699,9 @@
 		<id>HDAT_I2C_SLAVE_PORT</id>
 	</attribute>
 	<attribute>
+		<id>HDDW_ORDER</id>
+	</attribute>
+	<attribute>
 		<id>HUID</id>
 		<default>0x002E0003</default>
 	</attribute>
@@ -16671,6 +16720,9 @@
 	</attribute>
 	
 	<attribute>
+		<id>MGC_LOAD_SOURCE</id>
+	</attribute>
+	<attribute>
 		<id>MRU_ID</id>
 		<default>0x00</default>
 	</attribute>
@@ -16682,6 +16734,22 @@
 	<attribute>
 		<id>PARENT_PERVASIVE</id>
 		<default>physical:sys-0/node-0/proc-0/perv-15</default>
+	</attribute>
+	<attribute>
+		<id>PCIE_32BIT_DMA_SIZE</id>
+	</attribute>
+	<attribute>
+		<id>PCIE_32BIT_MMIO_SIZE</id>
+	</attribute>
+	<attribute>
+		<id>PCIE_64BIT_DMA_SIZE</id>
+	</attribute>
+	<attribute>
+		<id>PCIE_64BIT_MMIO_SIZE</id>
+	</attribute>
+	<attribute>
+		<id>PCIE_CAPABILITES</id>
+		<default>0x2</default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -16736,6 +16804,12 @@
 		<default>0</default>
 	</attribute>
 	<attribute>
+		<id>SLOT_INDEX</id>
+	</attribute>
+	<attribute>
+		<id>SLOT_NAME</id>
+	</attribute>
+	<attribute>
 		<id>TYPE</id>
 		<default>PHB</default>
 	</attribute>
@@ -16768,6 +16842,7 @@
 		<id>DECONFIG_GARDABLE</id>
 		<default>1</default>
 	</attribute>
+	
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>pu.phb:k0:n0:s0:p00:c4</default>
@@ -16819,6 +16894,9 @@
 	</attribute>
 	
 	<attribute>
+		<id>MGC_LOAD_SOURCE</id>
+	</attribute>
+	<attribute>
 		<id>MRU_ID</id>
 		<default>0x00</default>
 	</attribute>
@@ -16830,6 +16908,10 @@
 	<attribute>
 		<id>PARENT_PERVASIVE</id>
 		<default>physical:sys-0/node-0/proc-0/perv-15</default>
+	</attribute>
+	<attribute>
+		<id>PCIE_CAPABILITES</id>
+		<default>0x2</default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -16916,6 +16998,7 @@
 		<id>DECONFIG_GARDABLE</id>
 		<default>1</default>
 	</attribute>
+	
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>pu.phb:k0:n0:s0:p00:c5</default>
@@ -16967,6 +17050,9 @@
 	</attribute>
 	
 	<attribute>
+		<id>MGC_LOAD_SOURCE</id>
+	</attribute>
+	<attribute>
 		<id>MRU_ID</id>
 		<default>0x00</default>
 	</attribute>
@@ -16978,6 +17064,10 @@
 	<attribute>
 		<id>PARENT_PERVASIVE</id>
 		<default>physical:sys-0/node-0/proc-0/perv-15</default>
+	</attribute>
+	<attribute>
+		<id>PCIE_CAPABILITES</id>
+		<default>0x2</default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -34895,6 +34985,7 @@
 		<id>DECONFIG_GARDABLE</id>
 		<default>1</default>
 	</attribute>
+	
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>pu.phb:k0:n0:s0:p01:c0</default>
@@ -34928,6 +35019,9 @@
 		<id>HDAT_I2C_SLAVE_PORT</id>
 	</attribute>
 	<attribute>
+		<id>HDDW_ORDER</id>
+	</attribute>
+	<attribute>
 		<id>HUID</id>
 		<default>0x002E0006</default>
 	</attribute>
@@ -34946,6 +35040,9 @@
 	</attribute>
 	
 	<attribute>
+		<id>MGC_LOAD_SOURCE</id>
+	</attribute>
+	<attribute>
 		<id>MRU_ID</id>
 		<default>0x00</default>
 	</attribute>
@@ -34957,6 +35054,22 @@
 	<attribute>
 		<id>PARENT_PERVASIVE</id>
 		<default>physical:sys-0/node-0/proc-1/perv-13</default>
+	</attribute>
+	<attribute>
+		<id>PCIE_32BIT_DMA_SIZE</id>
+	</attribute>
+	<attribute>
+		<id>PCIE_32BIT_MMIO_SIZE</id>
+	</attribute>
+	<attribute>
+		<id>PCIE_64BIT_DMA_SIZE</id>
+	</attribute>
+	<attribute>
+		<id>PCIE_64BIT_MMIO_SIZE</id>
+	</attribute>
+	<attribute>
+		<id>PCIE_CAPABILITES</id>
+		<default>0x2</default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -35009,6 +35122,12 @@
 	<attribute>
 		<id>RESOURCE_IS_CRITICAL</id>
 		<default>0</default>
+	</attribute>
+	<attribute>
+		<id>SLOT_INDEX</id>
+	</attribute>
+	<attribute>
+		<id>SLOT_NAME</id>
 	</attribute>
 	<attribute>
 		<id>TYPE</id>
@@ -35339,6 +35458,7 @@
 		<id>DECONFIG_GARDABLE</id>
 		<default>1</default>
 	</attribute>
+	
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>pu.phb:k0:n0:s0:p01:c3</default>
@@ -35372,6 +35492,9 @@
 		<id>HDAT_I2C_SLAVE_PORT</id>
 	</attribute>
 	<attribute>
+		<id>HDDW_ORDER</id>
+	</attribute>
+	<attribute>
 		<id>HUID</id>
 		<default>0x002E0009</default>
 	</attribute>
@@ -35390,6 +35513,9 @@
 	</attribute>
 	
 	<attribute>
+		<id>MGC_LOAD_SOURCE</id>
+	</attribute>
+	<attribute>
 		<id>MRU_ID</id>
 		<default>0x00</default>
 	</attribute>
@@ -35401,6 +35527,22 @@
 	<attribute>
 		<id>PARENT_PERVASIVE</id>
 		<default>physical:sys-0/node-0/proc-1/perv-15</default>
+	</attribute>
+	<attribute>
+		<id>PCIE_32BIT_DMA_SIZE</id>
+	</attribute>
+	<attribute>
+		<id>PCIE_32BIT_MMIO_SIZE</id>
+	</attribute>
+	<attribute>
+		<id>PCIE_64BIT_DMA_SIZE</id>
+	</attribute>
+	<attribute>
+		<id>PCIE_64BIT_MMIO_SIZE</id>
+	</attribute>
+	<attribute>
+		<id>PCIE_CAPABILITES</id>
+		<default>0x2</default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -35455,6 +35597,12 @@
 		<default>0</default>
 	</attribute>
 	<attribute>
+		<id>SLOT_INDEX</id>
+	</attribute>
+	<attribute>
+		<id>SLOT_NAME</id>
+	</attribute>
+	<attribute>
 		<id>TYPE</id>
 		<default>PHB</default>
 	</attribute>
@@ -35487,6 +35635,7 @@
 		<id>DECONFIG_GARDABLE</id>
 		<default>1</default>
 	</attribute>
+	
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>pu.phb:k0:n0:s0:p01:c4</default>
@@ -35520,6 +35669,9 @@
 		<id>HDAT_I2C_SLAVE_PORT</id>
 	</attribute>
 	<attribute>
+		<id>HDDW_ORDER</id>
+	</attribute>
+	<attribute>
 		<id>HUID</id>
 		<default>0x002E000A</default>
 	</attribute>
@@ -35538,6 +35690,9 @@
 	</attribute>
 	
 	<attribute>
+		<id>MGC_LOAD_SOURCE</id>
+	</attribute>
+	<attribute>
 		<id>MRU_ID</id>
 		<default>0x00</default>
 	</attribute>
@@ -35549,6 +35704,22 @@
 	<attribute>
 		<id>PARENT_PERVASIVE</id>
 		<default>physical:sys-0/node-0/proc-1/perv-15</default>
+	</attribute>
+	<attribute>
+		<id>PCIE_32BIT_DMA_SIZE</id>
+	</attribute>
+	<attribute>
+		<id>PCIE_32BIT_MMIO_SIZE</id>
+	</attribute>
+	<attribute>
+		<id>PCIE_64BIT_DMA_SIZE</id>
+	</attribute>
+	<attribute>
+		<id>PCIE_64BIT_MMIO_SIZE</id>
+	</attribute>
+	<attribute>
+		<id>PCIE_CAPABILITES</id>
+		<default>0x2</default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
@@ -35603,6 +35774,12 @@
 		<default>0</default>
 	</attribute>
 	<attribute>
+		<id>SLOT_INDEX</id>
+	</attribute>
+	<attribute>
+		<id>SLOT_NAME</id>
+	</attribute>
+	<attribute>
 		<id>TYPE</id>
 		<default>PHB</default>
 	</attribute>
@@ -35635,6 +35812,7 @@
 		<id>DECONFIG_GARDABLE</id>
 		<default>1</default>
 	</attribute>
+	
 	<attribute>
 		<id>FAPI_NAME</id>
 		<default>pu.phb:k0:n0:s0:p01:c5</default>
@@ -35685,6 +35863,9 @@
 	</attribute>
 	
 	<attribute>
+		<id>MGC_LOAD_SOURCE</id>
+	</attribute>
+	<attribute>
 		<id>MRU_ID</id>
 		<default>0x00</default>
 	</attribute>
@@ -35696,6 +35877,10 @@
 	<attribute>
 		<id>PARENT_PERVASIVE</id>
 		<default>physical:sys-0/node-0/proc-1/perv-15</default>
+	</attribute>
+	<attribute>
+		<id>PCIE_CAPABILITES</id>
+		<default>0x2</default>
 	</attribute>
 	<attribute>
 		<id>PHYS_PATH</id>
